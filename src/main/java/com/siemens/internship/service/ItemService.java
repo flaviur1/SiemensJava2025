@@ -1,6 +1,5 @@
 package com.siemens.internship.service;
 
-import com.google.gson.Gson;
 import com.siemens.internship.model.Item;
 import com.siemens.internship.repository.ItemRepository;
 import lombok.Getter;
@@ -14,6 +13,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.logging.ErrorManager;
 
 @Service
 public class ItemService {
